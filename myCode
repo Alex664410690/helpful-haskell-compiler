@@ -1,0 +1,48 @@
+{- Space below to write code for exercises (except the bonus exercise). Please
+   don't remove functions you have written, instead write new functions and 
+   change only the main function where specified in the exercises. -}
+
+main = ten
+
+ten = 1 + 2 + 3 + 4
+
+addTwo x = x + 2 -- this function adds 2 to a given number, and will be used in Ex. 5
+addTwoLambda = \x -> x + 2 -- this function does exactly the same thing, but is written as a lambda instead!
+
+
+
+{- Please answer each of the questions on the below, at the point in the lab sheet when they occur: 
+   
+   Do you find the tracing feature useful (being able to see each step of evaluation)?
+   Why or why not? Do you prefer using verbosity level 2 or 3 and why?
+
+
+
+   Do you find the error messages helpful? Why or why not? If you find an unhelpful error
+   message how might you change it or what else would you like to see added to make debugging easier?
+
+
+
+   Do you prefer dynamic or static type checking when working in Haskell, and why? Is
+   the output.txt file readable to you, and can you see how your code has been transformed 
+   into that equivalent code?
+
+
+
+   How do you find the ease of development using this new compiler/debugger vs. when
+   using GHC? Is this compiler easy to use, and is there anything that can be done to make it more
+   appealing or improve your quality of life while using it?
+
+
+
+   Is there anything else you’d like to say about about this project? It can be critical
+   review, your favourite / most useful aspects, observations about this compiler or GHC, 
+   or anything else.
+
+
+
+-}
+
+{- Space below to write code for the bonus exercise, if you choose to complete it (totally 
+   optional). You may move the main function down here if that's easier! -}
+
